@@ -15,6 +15,7 @@ public class HitHead : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
         Debug.Log("fff");
+        Debug.Log("ououououosdv[lkaspvojnaofvnaosdhv");
         if (other.gameObject.CompareTag(TagSnow) && _headHead.IsTouching(_snow))
         {
             _effect.Play();
