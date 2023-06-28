@@ -9,7 +9,7 @@ public class DustTrail : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
         _snow.Play();
-        Debug.Log("Some mesage");
+        
     }
 
     private void OnCollisionExit2D(Collision2D other)
